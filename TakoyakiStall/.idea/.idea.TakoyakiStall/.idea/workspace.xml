@@ -7,6 +7,13 @@
     <list default="true" id="c74104f5-b46a-4d37-8b8f-468d431f2063" name="変更" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TakoyakiStall/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TakoyakiStall/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/InGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/InGame.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TakoyakiManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TakoyakiManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Batter.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Batter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Batter.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Batter.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Completed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Completed.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Tako.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Tako.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Tako.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Tako.png.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +40,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "feature/momiji1107/CreateGameScene#1",
+    "git-widget-placeholder": "feature/momiji1107/ChangeState#3",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -96,6 +103,7 @@
       <updated>1764225415925</updated>
       <workItem from="1764225424785" duration="350000" />
       <workItem from="1764592567140" duration="1696000" />
+      <workItem from="1764681388702" duration="11390000" />
     </task>
     <servers />
   </component>
