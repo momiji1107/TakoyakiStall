@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 
 public class TakoyakiManager : MonoBehaviour
@@ -29,6 +30,7 @@ public class TakoyakiManager : MonoBehaviour
         Debug.Log(curState);
         
         renderer = GetComponent<SpriteRenderer>();
+        renderer.enabled = false;
     }
 
     // Update is called once per frame
@@ -67,11 +69,10 @@ public class TakoyakiManager : MonoBehaviour
                 break;
             case TAKOYAKI_STATE.TAKO:
                 curState = TAKOYAKI_STATE.TURNOVER;
-                renderer.sprite = sprites[2];
+                StartCoroutine("TurnOver");
                 break;
             case TAKOYAKI_STATE.TURNOVER:
                 curState = TAKOYAKI_STATE.WAITING;
-                renderer.sprite = sprites[3];
                 break;
             case TAKOYAKI_STATE.WAITING:
                 break;
@@ -87,5 +88,13 @@ public class TakoyakiManager : MonoBehaviour
                 break;
         }
         Debug.Log(curState);
+    }
+
+    IEnumerator TurnOver()
+    {
+        renderer.sprite = sprites[2];
+        yield return new WaitForSeconds(0.5f);
+        curState = TAKOYAKI_STATE.WAITING;
+        renderer.sprite = sprites[3];
     }
 }
