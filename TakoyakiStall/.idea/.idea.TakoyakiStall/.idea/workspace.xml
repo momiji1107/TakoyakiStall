@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c74104f5-b46a-4d37-8b8f-468d431f2063" name="変更" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TakoyakiStall/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TakoyakiStall/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TakoyakiManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TakoyakiManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +96,7 @@
       <workItem from="1764225424785" duration="350000" />
       <workItem from="1764592567140" duration="1696000" />
       <workItem from="1764681388702" duration="11390000" />
-      <workItem from="1764744175262" duration="1033000" />
+      <workItem from="1764744175262" duration="1335000" />
     </task>
     <servers />
   </component>
