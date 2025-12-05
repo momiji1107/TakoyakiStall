@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 6632192}
   - component: {fileID: 6632193}
   m_Layer: 0
-  m_Name: Takoyak
+  m_Name: Takoyaki
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
