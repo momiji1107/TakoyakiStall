@@ -7,13 +7,15 @@ public class TakoyakiManager : MonoBehaviour
     public enum TAKOYAKI_STATE
     {
         NOTHING,
-        BATTAR, //タネ
+        BATTER, //タネ
         TAKO, //タコ入り
         TURNOVER, //ひっくり返す
         WAITING, //焼けるまで待機
         DONE, //焼けた
         BURNT //焦げた
     }
+    
+    [SerializeField] private Player player;
     
     public Sprite[] sprites;
     SpriteRenderer renderer;
@@ -59,30 +61,49 @@ public class TakoyakiManager : MonoBehaviour
         switch (curState)
         {
             case TAKOYAKI_STATE.NOTHING:
-                curState = TAKOYAKI_STATE.BATTAR;
-                renderer.enabled = true;
-                renderer.sprite = sprites[0];
+                if (player.Action == Player.ACTION.BATTER)
+                {
+                    curState = TAKOYAKI_STATE.BATTER;
+                    renderer.enabled = true;
+                    renderer.sprite = sprites[0];
+                }
+
                 break;
-            case TAKOYAKI_STATE.BATTAR:
-                curState = TAKOYAKI_STATE.TAKO;
-                renderer.sprite = sprites[1];
+            case TAKOYAKI_STATE.BATTER:
+                if (player.Action == Player.ACTION.TAKO)
+                {
+                    curState = TAKOYAKI_STATE.TAKO;
+                    renderer.sprite = sprites[1];
+                }
+
                 break;
             case TAKOYAKI_STATE.TAKO:
-                curState = TAKOYAKI_STATE.TURNOVER;
-                StartCoroutine("TurnOver");
+                if (player.Action == Player.ACTION.PICK)
+                {
+                    curState = TAKOYAKI_STATE.TURNOVER;
+                    StartCoroutine("TurnOver");
+                }
+
                 break;
             case TAKOYAKI_STATE.TURNOVER:
-                curState = TAKOYAKI_STATE.WAITING;
                 break;
             case TAKOYAKI_STATE.WAITING:
                 break;
             case TAKOYAKI_STATE.DONE:
-                curState = TAKOYAKI_STATE.NOTHING;
-                renderer.enabled = false;
+                if (player.Action == Player.ACTION.PICK)
+                {
+                    curState = TAKOYAKI_STATE.NOTHING;
+                    renderer.enabled = false;
+                }
+
                 break;
             case TAKOYAKI_STATE.BURNT:
-                curState = TAKOYAKI_STATE.NOTHING;
-                renderer.enabled = false;
+                if (player.Action == Player.ACTION.PICK)
+                {
+                    curState = TAKOYAKI_STATE.NOTHING;
+                    renderer.enabled = false;
+                }
+
                 break;
             default:
                 break;
