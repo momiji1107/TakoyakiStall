@@ -38,6 +38,21 @@ TextureImporter:
   - first:
       213: 2685020035694240283
     second: "\u7D05\u3057\u3087\u3046\u304B\u3099_11"
+  - first:
+      213: -5504272591299667108
+    second: "\u7D05\u3057\u3087\u3046\u304B\u3099_12"
+  - first:
+      213: 8865000344551140579
+    second: "\u7D05\u3057\u3087\u3046\u304B\u3099_13"
+  - first:
+      213: -40904283083367935
+    second: "\u7D05\u3057\u3087\u3046\u304B\u3099_14"
+  - first:
+      213: -7534559613258985980
+    second: "\u7D05\u3057\u3087\u3046\u304B\u3099_15"
+  - first:
+      213: -973236525579827583
+    second: "\u7D05\u3057\u3087\u3046\u304B\u3099_16"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -149,10 +164,10 @@ TextureImporter:
       name: "\u7D05\u3057\u3087\u3046\u304B\u3099_0"
       rect:
         serializedVersion: 2
-        x: 490
-        y: 1587
-        width: 99
-        height: 140
+        x: 467
+        y: 1540
+        width: 122
+        height: 187
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,10 +186,10 @@ TextureImporter:
       name: "\u7D05\u3057\u3087\u3046\u304B\u3099_1"
       rect:
         serializedVersion: 2
-        x: 987
-        y: 1613
-        width: 183
-        height: 108
+        x: 725
+        y: 1263
+        width: 157
+        height: 576
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,10 +208,10 @@ TextureImporter:
       name: "\u7D05\u3057\u3087\u3046\u304B\u3099_2"
       rect:
         serializedVersion: 2
-        x: 404
-        y: 1283
-        width: 119
-        height: 187
+        x: 987
+        y: 1489
+        width: 341
+        height: 341
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,10 +230,10 @@ TextureImporter:
       name: "\u7D05\u3057\u3087\u3046\u304B\u3099_3"
       rect:
         serializedVersion: 2
-        x: 1574
+        x: 1318
         y: 1364
-        width: 100
-        height: 156
+        width: 406
+        height: 223
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,10 +252,10 @@ TextureImporter:
       name: "\u7D05\u3057\u3087\u3046\u304B\u3099_4"
       rect:
         serializedVersion: 2
-        x: 419
-        y: 1267
-        width: 14
-        height: 9
+        x: 296
+        y: 1183
+        width: 532
+        height: 288
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -259,10 +274,10 @@ TextureImporter:
       name: "\u7D05\u3057\u3087\u3046\u304B\u3099_5"
       rect:
         serializedVersion: 2
-        x: 732
-        y: 1201
-        width: 94
-        height: 110
+        x: 1029
+        y: 876
+        width: 112
+        height: 557
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -282,9 +297,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 181
-        y: 916
-        width: 147
-        height: 145
+        y: 803
+        width: 339
+        height: 313
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -325,10 +340,10 @@ TextureImporter:
       name: "\u7D05\u3057\u3087\u3046\u304B\u3099_8"
       rect:
         serializedVersion: 2
-        x: 1706
-        y: 1013
-        width: 116
-        height: 130
+        x: 1449
+        y: 777
+        width: 329
+        height: 337
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -347,10 +362,10 @@ TextureImporter:
       name: "\u7D05\u3057\u3087\u3046\u304B\u3099_9"
       rect:
         serializedVersion: 2
-        x: 346
-        y: 489
-        width: 223
-        height: 73
+        x: 1706
+        y: 1013
+        width: 116
+        height: 130
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -369,10 +384,10 @@ TextureImporter:
       name: "\u7D05\u3057\u3087\u3046\u304B\u3099_10"
       rect:
         serializedVersion: 2
-        x: 1507
-        y: 422
-        width: 189
-        height: 117
+        x: 527
+        y: 871
+        width: 504
+        height: 104
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -391,6 +406,116 @@ TextureImporter:
       name: "\u7D05\u3057\u3087\u3046\u304B\u3099_11"
       rect:
         serializedVersion: 2
+        x: 346
+        y: 193
+        width: 223
+        height: 638
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b12ac522f7b134520800000000000000
+      internalID: 2685020035694240283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u7D05\u3057\u3087\u3046\u304B\u3099_12"
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 210
+        width: 502
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5b1aa8bd35ec93b0800000000000000
+      internalID: -5504272591299667108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u7D05\u3057\u3087\u3046\u304B\u3099_13"
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 680
+        width: 436
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ecafa638dec60b70800000000000000
+      internalID: 8865000344551140579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u7D05\u3057\u3087\u3046\u304B\u3099_14"
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 176
+        width: 160
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10a160175cdae6ff0800000000000000
+      internalID: -40904283083367935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u7D05\u3057\u3087\u3046\u304B\u3099_15"
+      rect:
+        serializedVersion: 2
+        x: 1507
+        y: 422
+        width: 189
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40e81b893fddf6790800000000000000
+      internalID: -7534559613258985980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u7D05\u3057\u3087\u3046\u304B\u3099_16"
+      rect:
+        serializedVersion: 2
         x: 901
         y: 165
         width: 197
@@ -403,8 +528,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b12ac522f7b134520800000000000000
-      internalID: 2685020035694240283
+      spriteID: 1860162598e5e72f0800000000000000
+      internalID: -973236525579827583
       vertices: []
       indices: 
       edges: []
@@ -427,6 +552,11 @@ TextureImporter:
       "\u7D05\u3057\u3087\u3046\u304B\u3099_1": 8739562312933023843
       "\u7D05\u3057\u3087\u3046\u304B\u3099_10": -5121209991173676986
       "\u7D05\u3057\u3087\u3046\u304B\u3099_11": 2685020035694240283
+      "\u7D05\u3057\u3087\u3046\u304B\u3099_12": -5504272591299667108
+      "\u7D05\u3057\u3087\u3046\u304B\u3099_13": 8865000344551140579
+      "\u7D05\u3057\u3087\u3046\u304B\u3099_14": -40904283083367935
+      "\u7D05\u3057\u3087\u3046\u304B\u3099_15": -7534559613258985980
+      "\u7D05\u3057\u3087\u3046\u304B\u3099_16": -973236525579827583
       "\u7D05\u3057\u3087\u3046\u304B\u3099_2": -1653805645193814367
       "\u7D05\u3057\u3087\u3046\u304B\u3099_3": 322821002087975671
       "\u7D05\u3057\u3087\u3046\u304B\u3099_4": -3463662963413870947

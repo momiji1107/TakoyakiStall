@@ -23,15 +23,6 @@ TextureImporter:
   - first:
       213: 6470733249361771859
     second: "\u306D\u304D\u3099_6"
-  - first:
-      213: -8523727820485718795
-    second: "\u306D\u304D\u3099_7"
-  - first:
-      213: -1436730945506494677
-    second: "\u306D\u304D\u3099_8"
-  - first:
-      213: -8196134312562330493
-    second: "\u306D\u304D\u3099_9"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -143,10 +134,10 @@ TextureImporter:
       name: "\u306D\u304D\u3099_0"
       rect:
         serializedVersion: 2
-        x: 628
-        y: 1511
-        width: 192
-        height: 221
+        x: 193
+        y: 1052
+        width: 440
+        height: 451
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,10 +156,10 @@ TextureImporter:
       name: "\u306D\u304D\u3099_1"
       rect:
         serializedVersion: 2
-        x: 1275
-        y: 1583
-        width: 145
-        height: 115
+        x: 637
+        y: 1284
+        width: 702
+        height: 572
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,10 +178,10 @@ TextureImporter:
       name: "\u306D\u304D\u3099_2"
       rect:
         serializedVersion: 2
-        x: 484
-        y: 1088
-        width: 164
-        height: 155
+        x: 1059
+        y: 1184
+        width: 331
+        height: 266
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -209,10 +200,10 @@ TextureImporter:
       name: "\u306D\u304D\u3099_3"
       rect:
         serializedVersion: 2
-        x: 1041
-        y: 1231
-        width: 165
-        height: 140
+        x: 1429
+        y: 1039
+        width: 401
+        height: 478
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -231,10 +222,10 @@ TextureImporter:
       name: "\u306D\u304D\u3099_4"
       rect:
         serializedVersion: 2
-        x: 1556
-        y: 1111
-        width: 175
-        height: 189
+        x: 418
+        y: 273
+        width: 480
+        height: 797
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -253,10 +244,10 @@ TextureImporter:
       name: "\u306D\u304D\u3099_5"
       rect:
         serializedVersion: 2
-        x: 310
-        y: 676
-        width: 231
-        height: 218
+        x: 896
+        y: 453
+        width: 229
+        height: 368
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -275,10 +266,10 @@ TextureImporter:
       name: "\u306D\u304D\u3099_6"
       rect:
         serializedVersion: 2
-        x: 1034
-        y: 719
-        width: 185
-        height: 128
+        x: 1117
+        y: 198
+        width: 759
+        height: 867
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -289,72 +280,6 @@ TextureImporter:
       bones: []
       spriteID: 35d748c5b99acc950800000000000000
       internalID: 6470733249361771859
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "\u306D\u304D\u3099_7"
-      rect:
-        serializedVersion: 2
-        x: 1545
-        y: 640
-        width: 122
-        height: 104
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5fc85d935b2a5b980800000000000000
-      internalID: -8523727820485718795
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "\u306D\u304D\u3099_8"
-      rect:
-        serializedVersion: 2
-        x: 761
-        y: 391
-        width: 162
-        height: 172
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b27364331d4bf0ce0800000000000000
-      internalID: -1436730945506494677
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "\u306D\u304D\u3099_9"
-      rect:
-        serializedVersion: 2
-        x: 1179
-        y: 287
-        width: 180
-        height: 227
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 384f458844b714e80800000000000000
-      internalID: -8196134312562330493
       vertices: []
       indices: 
       edges: []
@@ -380,9 +305,6 @@ TextureImporter:
       "\u306D\u304D\u3099_4": 5497552762681039119
       "\u306D\u304D\u3099_5": 4289309464686479260
       "\u306D\u304D\u3099_6": 6470733249361771859
-      "\u306D\u304D\u3099_7": -8523727820485718795
-      "\u306D\u304D\u3099_8": -1436730945506494677
-      "\u306D\u304D\u3099_9": -8196134312562330493
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
