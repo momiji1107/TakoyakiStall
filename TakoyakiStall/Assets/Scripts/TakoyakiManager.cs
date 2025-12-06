@@ -96,5 +96,6 @@ public class TakoyakiManager : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         curState = TAKOYAKI_STATE.WAITING;
         renderer.sprite = sprites[3];
+        Debug.Log(curState);
     }
 }
