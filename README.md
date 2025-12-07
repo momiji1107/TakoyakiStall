@@ -1,18 +1,22 @@
 # TakoyakiStall
 
-###class
+## 宣言規則
+### クラス名
 public class Example{}
 
-###method
+### メンバ関数
 public void Example(){}
 
-###property
+### メンバ変数
 public Class example;
 
-###enum
+### enum
 public enum EXAMPLE
 {
    ABC,
    CDE,
    EFG
 }
+
+## ブランチ名規則
+feature/momiji1107/内容#issue番号
