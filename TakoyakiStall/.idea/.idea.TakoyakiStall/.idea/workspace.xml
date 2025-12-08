@@ -7,6 +7,8 @@
     <list default="true" id="c74104f5-b46a-4d37-8b8f-468d431f2063" name="変更" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TakoyakiStall/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TakoyakiStall/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/TakoyakiManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TakoyakiManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/たこ入れ.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/たこ入れ.PNG.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +19,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ActionManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1e5e48aff19d/Editor/AutoRefresh.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1e5e48aff19d/Editor/Views/Shelves/ShelvesListView.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.rendering.light-transport@9bd588f963c0/Runtime/UnifiedRayTracing/Compute/ComputeRayTracingAccelStruct.cs" root0="SKIP_HIGHLIGHTING" />
@@ -41,7 +44,7 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Unity エディターにアタッチ.Unity エディターにアタッチ">
     <configuration name="ユニットテスト (バッチモード)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/6000.0.62f1/Unity.app/Contents/MacOS/Unity" />
