@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c74104f5-b46a-4d37-8b8f-468d431f2063" name="変更" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TakoyakiStall/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TakoyakiStall/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TakoyakiManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TakoyakiManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +33,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/momiji1107/ChangeState#3&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/momiji1107/Add__Ingredient#7&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -97,6 +98,8 @@
       <workItem from="1764592567140" duration="1696000" />
       <workItem from="1764681388702" duration="11390000" />
       <workItem from="1764744175262" duration="1335000" />
+      <workItem from="1765113822593" duration="1467000" />
+      <workItem from="1765193409494" duration="288000" />
     </task>
     <servers />
   </component>

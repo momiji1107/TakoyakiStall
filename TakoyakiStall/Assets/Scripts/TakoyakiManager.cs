@@ -7,12 +7,12 @@ public class TakoyakiManager : MonoBehaviour
     public enum TAKOYAKI_STATE
     {
         NOTHING = 0,
-        BATTAR = 0, //タネ
-        TAKO = 0, //タコ入り
-        TURNOVER = 0, //ひっくり返す
-        WAITING = 0, //焼けるまで待機
-        DONE = 0, //焼けた
-        BURNT = 0 //焦げた
+        BATTAR, //タネ
+        TAKO, //タコ入り
+        TURNOVER, //ひっくり返す
+        WAITING, //焼けるまで待機
+        DONE, //焼けた
+        BURNT //焦げた
     }
     
     public Sprite[] sprites;
