@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 6632189}
   - component: {fileID: 6632192}
   - component: {fileID: 6632193}
+  - component: {fileID: 6632194}
   m_Layer: 0
   m_Name: Takoyaki
   m_TagString: Untagged
@@ -258,6 +259,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 648735155}
+  ingredientManager: {fileID: 6632194}
   sprites:
   - {fileID: 21300000, guid: 9e4b2581b621f469cbed8adf093cb53d, type: 3}
   - {fileID: 21300000, guid: 3c7960c7306f346a0b371a53a57580d7, type: 3}
@@ -294,6 +296,21 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &6632194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6632188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec4ce7b5c42d0460c952889115d0ca56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ingreSprites:
+  - {fileID: 21300000, guid: 13e23af9ad99e4750a72f09f07fd280a, type: 3}
+  - {fileID: 21300000, guid: 5a13f329ed3bd4d4eaf5841684bf07ff, type: 3}
 --- !u!1 &53086911
 GameObject:
   m_ObjectHideFlags: 0
