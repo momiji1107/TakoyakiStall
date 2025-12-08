@@ -6,7 +6,7 @@ public class TakoyakiManager : MonoBehaviour
 {
     public enum TAKOYAKI_STATE
     {
-        NOTHING,
+        NOTHING = 0,
         BATTER, //タネ
         TAKO, //タコ入り
         TURNOVER, //ひっくり返す
@@ -16,6 +16,7 @@ public class TakoyakiManager : MonoBehaviour
     }
     
     [SerializeField] private Player player;
+    [SerializeField] private IngredientManager ingredientManager;
     
     public Sprite[] sprites;
     SpriteRenderer renderer;
@@ -83,6 +84,7 @@ public class TakoyakiManager : MonoBehaviour
                     curState = TAKOYAKI_STATE.TURNOVER;
                     StartCoroutine("TurnOver");
                 }
+                else AddIngredient(player.Action);
 
                 break;
             case TAKOYAKI_STATE.TURNOVER:
@@ -113,9 +115,29 @@ public class TakoyakiManager : MonoBehaviour
 
     IEnumerator TurnOver()
     {
+        foreach (Transform ingredients in transform)
+        {
+            GameObject.Destroy(ingredients.gameObject);
+        }
         renderer.sprite = sprites[2];
         yield return new WaitForSeconds(0.5f);
         curState = TAKOYAKI_STATE.WAITING;
         renderer.sprite = sprites[3];
+        Debug.Log(curState);
+    }
+
+    private void AddIngredient(Player.ACTION action)
+    {
+        switch(action)
+        {
+            case Player.ACTION.NEGI:
+                ingredientManager.AddIngredient("NEGI");
+                break;
+            case Player.ACTION.BENI:
+                ingredientManager.AddIngredient("BENI");
+                break;
+            default:
+                break;
+        }
     }
 }
