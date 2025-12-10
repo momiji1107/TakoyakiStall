@@ -120,7 +120,7 @@ public class TakoyakiManager : MonoBehaviour
             GameObject.Destroy(ingredients.gameObject);
         }
         renderer.sprite = sprites[2];
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.3f);
         curState = TAKOYAKI_STATE.WAITING;
         renderer.sprite = sprites[3];
         Debug.Log(curState);
