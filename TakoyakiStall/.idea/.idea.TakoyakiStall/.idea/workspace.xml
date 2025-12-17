@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="dd84b982-0e51-4eab-af56-707a68bf73a8" name="変更" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TakoyakiStall/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TakoyakiStall/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/InGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/InGame.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/TakoyakiPanManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TakoyakiPanManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +90,8 @@
       <updated>1765376968836</updated>
       <workItem from="1765376973277" duration="232000" />
       <workItem from="1765456846194" duration="3462000" />
-      <workItem from="1765548178410" duration="2203000" />
+      <workItem from="1765548178410" duration="2399000" />
+      <workItem from="1765978994414" duration="3402000" />
     </task>
     <servers />
   </component>
