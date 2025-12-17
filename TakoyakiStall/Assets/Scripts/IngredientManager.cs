@@ -27,7 +27,7 @@ public class IngredientManager : MonoBehaviour
             SpriteRenderer sr = obj.AddComponent<SpriteRenderer>();
             sr.sortingOrder = ingredients.Count + 1;
             sr.sprite = ingreDic[ingredient];
-            Debug.Log(ingredient + "was added.");
+            Debug.Log(ingredient + " was added.");
         }
        
     }
