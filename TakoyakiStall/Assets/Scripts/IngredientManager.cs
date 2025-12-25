@@ -18,7 +18,7 @@ public class IngredientManager : MonoBehaviour
     {
         if (ingredients.Contains(ingredient))
         {
-            Debug.Log(ingredient + "is already in the ingredient list");
+            Debug.Log(ingredient + " is already in the ingredient list");
         }
         else
         {

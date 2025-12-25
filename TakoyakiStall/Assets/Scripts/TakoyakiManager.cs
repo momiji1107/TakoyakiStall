@@ -17,23 +17,30 @@ public class TakoyakiManager : MonoBehaviour
     
     [SerializeField] private Player player;
     [SerializeField] private IngredientManager ingredientManager;
+    [SerializeField] private TakoyakiPanManager panManager;
     
     public Sprite[] sprites;
-    SpriteRenderer renderer;
+    private SpriteRenderer renderer;
 
     private TAKOYAKI_STATE curState;
     private float doneTime = 10.0f; //焼けるまでの時間
     private float burntTime = 15.0f; //焦げるまでの時間
     private float cookTimer = 0.0f;
+
+    private int thisHoleNum;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        curState = TAKOYAKI_STATE.NOTHING;
+        curState = TAKOYAKI_STATE.BATTER;
         Debug.Log(curState);
         
         renderer = GetComponent<SpriteRenderer>();
-        renderer.enabled = false;
+        renderer.sprite = sprites[0];
+        renderer.enabled = true;
+        
+        player = GameObject.Find("Player").GetComponent<Player>();
+        panManager = GameObject.Find("TakoyakiPan").GetComponent<TakoyakiPanManager>();
     }
 
     // Update is called once per frame
@@ -84,7 +91,7 @@ public class TakoyakiManager : MonoBehaviour
                     curState = TAKOYAKI_STATE.TURNOVER;
                     StartCoroutine("TurnOver");
                 }
-                else AddIngredient(player.Action);
+                else SelectIngredientsToAdd(player.Action);
 
                 break;
             case TAKOYAKI_STATE.TURNOVER:
@@ -96,16 +103,18 @@ public class TakoyakiManager : MonoBehaviour
                 {
                     curState = TAKOYAKI_STATE.NOTHING;
                     renderer.enabled = false;
+                    panManager.ReleaseHole(thisHoleNum);
+                    Destroy(this.gameObject);
                 }
-
                 break;
             case TAKOYAKI_STATE.BURNT:
                 if (player.Action == Player.ACTION.PICK)
                 {
                     curState = TAKOYAKI_STATE.NOTHING;
                     renderer.enabled = false;
+                    panManager.ReleaseHole(thisHoleNum);
+                    Destroy(this.gameObject);
                 }
-
                 break;
             default:
                 break;
@@ -115,9 +124,9 @@ public class TakoyakiManager : MonoBehaviour
 
     IEnumerator TurnOver()
     {
-        foreach (Transform ingredients in transform)
+        foreach (Transform ingredient in transform)
         {
-            GameObject.Destroy(ingredients.gameObject);
+            GameObject.Destroy(ingredient.gameObject);
         }
         renderer.sprite = sprites[2];
         yield return new WaitForSeconds(0.3f);
@@ -126,7 +135,7 @@ public class TakoyakiManager : MonoBehaviour
         Debug.Log(curState);
     }
 
-    private void AddIngredient(Player.ACTION action)
+    private void SelectIngredientsToAdd(Player.ACTION action)
     {
         switch(action)
         {
@@ -139,5 +148,11 @@ public class TakoyakiManager : MonoBehaviour
             default:
                 break;
         }
+    }
+
+    public void SetHole(int holeNum)
+    {
+        Debug.Log("Sethole");
+        thisHoleNum = holeNum;
     }
 }
