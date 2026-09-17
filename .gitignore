@@ -34,6 +34,9 @@
 # Visual Studio cache directory
 .vs/
 
+# Rider
+.idea/
+
 # Gradle cache directory
 .gradle/
 
@@ -98,9 +101,7 @@ InitTestScene*.unity*
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
 
-<<<<<<< HEAD
 .DS_Store
-=======
 
 # Never ignore DLLs in the FMOD subfolder.
 !/[Aa]ssets/Plugins/FMOD/**/lib/*
@@ -119,4 +120,3 @@ InitTestScene*.unity*
 # If the source bank files are kept outside of the StreamingAssets folder then these can be ignored.
 # Log files can be ignored.
 fmod_editor.log
->>>>>>> origin/main
