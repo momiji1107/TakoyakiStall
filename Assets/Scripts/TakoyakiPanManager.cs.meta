@@ -1,2 +1,12 @@
 fileFormatVersion: 2
 guid: 9bed2531183aa4d498bd93e9887adba5
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - takoyakiPrefab: {fileID: 3777022889085465031, guid: 4541d0bef5fe84836ac183b9008cc5f0, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
